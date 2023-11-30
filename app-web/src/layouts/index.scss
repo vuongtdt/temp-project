@@ -1,0 +1,38 @@
+@media (max-width: 1300px) {
+  p,
+  span,
+  h6, body {
+    font-size: 0.9rem !important;
+  }
+}
+@media (max-width: 1100px) {
+  p,
+  span,
+  h6, body {
+    font-size: 0.75rem !important;
+  }
+}
+@media (max-width: 960px) {
+  p,
+  span,
+  h6, body {
+    font-size: 0.68rem !important;
+  }
+}
+.texfield-info {
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+.css-1asblth-MuiStack-root>:not(style)+:not(style),
+.css-1okj3ks-MuiStack-root>:not(style)+:not(style) {
+  margin-top: 24px;
+}
